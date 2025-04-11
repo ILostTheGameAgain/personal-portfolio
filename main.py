@@ -10,6 +10,8 @@ from password_generator import generate_passwords
 from BS_main import main as battle_simulator
 from morse_code import main as morse_code
 from coin_changer import main as coin_change
+from financial_calculator import main as financial_calculator
+from movie_recommender import main as recommend_movies
 
 
 #main function, give instructions and ask user for input
@@ -26,6 +28,8 @@ What would you like to see? Type:
 2 to view my battle simulator
 3 to view my morse code translator
 4 to view my coin changer
+5 to view my financial calculator
+6 to view my movie recommender
 7 to exit
 Your answer here:
 '''))
@@ -88,33 +92,30 @@ It allows you to:
 
         elif user_input == 5:
             cs()
-            print('''BATTLE SIMULATOR
+            print('''FINANCIAL CALCULATOR
 This program was a solo project for computer programming 2.
-It allows you to create profiles and:
- + level them up
- + fight other profiles
- + view stats
- + choose to upgrade stats
-This project was used to teach about use of
-multiple files and libraries.''')
+It allows you to do numerous financial operations, including:
+ + calculating monthly deposits
+ + compound interest
+ + calculating a budget
+ + calculating discount
+ + evenly dividing tips''')
             pause()
-            battle_simulator()
+            print(financial_calculator())
 
             pause()
 
         elif user_input == 6:
             cs()
-            print('''BATTLE SIMULATOR
+            print('''MOVIE RECOMMENDER
 This program was a solo project for computer programming 2.
-It allows you to create profiles and:
- + level them up
- + fight other profiles
- + view stats
- + choose to upgrade stats
+It gives you a movie recommendation based on:
+ + genre
+ + rating
 This project was used to teach about use of
-multiple files and libraries.''')
+reading csv files.''')
             pause()
-            battle_simulator()
+            recommend_movies()
 
             pause()
 

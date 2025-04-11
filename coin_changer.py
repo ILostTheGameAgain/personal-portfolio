@@ -81,7 +81,7 @@ def main():
 
             #add to string if there are more than one
             if repeats > 0:
-                coin_string += f'\n{repeats} {coins['name'][-(i+1)]}'
+                coin_string += f"\n{repeats} {coins['name'][-(i+1)]}"
 
         return coin_string
 
