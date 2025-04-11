@@ -1,0 +1,49 @@
+name,value,type,country
+penny,0.01,dollars,us
+nickel,0.05,dollars,us
+dime,0.1,dollars,us
+quarter,0.25,dollars,us
+half dollar,0.5,dollars,us
+$1 bill,1,dollars,us
+$2 bill,2,dollars,us
+$5 bill,5,dollars,us
+$10 bill,10,dollars,us
+$20 bill,20,dollars,us
+$50 bill,50,dollars,us
+$100 bill,100,dollars,us
+1p coin,0.01,pounds,uk
+2p coin,0.02,pounds,uk
+5p coin,0.05,pounds,uk
+10p coin,0.1,pounds,uk
+20p coin,0.2,pounds,uk
+50p coin,0.5,pounds,uk
+1£ coin,1,pounds,uk
+2£ coin,2,pounds,uk
+5£ note,5,pounds,uk
+10£ note,10,pounds,uk
+20£ note,20,pounds,uk
+50£ note,50,pounds,uk
+1 cent coin,0.01,euros,no specific place
+2 cent coin,0.02,euros,no specific place
+5 cent coin,0.05,euros,no specific place
+10 cent coin,0.1,euros,no specific place
+20 cent coin,0.2,euros,no specific place
+50 cent coin,0.5,euros,no specific place
+1€ coin,1,euros,no specific place
+2€ coin,2,euros,no specific place
+5€ note,5,euros,no specific place
+10€ note,10,euros,no specific place
+20€ note,20,euros,no specific place
+50€ note,50,euros,no specific place
+100€ note,100,euros,no specific place
+200€ note,200,euros,no specific place
+1 kr coin,1,kronor,sweden
+2 kr coin,2,kronor,sweden
+5 kr coin,5,kronor,sweden
+10 kr coin,10,kronor,sweden
+20 kr note,20,kronor,sweden
+50 kr note,50,kronor,sweden
+100 kr note,100,kronor,sweden
+200 kr note,200,kronor,sweden
+500 kr note,500,kronor,sweden
+1000 kr note,1000,kronor,sweden
